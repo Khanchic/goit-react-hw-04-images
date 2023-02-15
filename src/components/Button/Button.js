@@ -8,7 +8,6 @@ export const Button = ({ onClick, isLoading }) => {
             <button type="button"
                 className={styles.loadMoreBtn}
                 onClick={onClick}
-                // disabled={isLoading}
             >Load more</button>
 
         </div>
